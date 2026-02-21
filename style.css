@@ -358,3 +358,10 @@ footer a:hover { color: var(--accent); }
   background: var(--accent-light);
   transform: translateY(-2px);
 }
+
+/* Coming soon store badge */
+.store-badges .coming-soon {
+  opacity: 0.5;
+  cursor: default;
+  pointer-events: none;
+}
