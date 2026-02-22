@@ -384,44 +384,4 @@ footer a:hover { color: var(--accent); }
   gap: 24px;
 }
 
-/* ===== Consulting Section ===== */
-.consulting {
-  padding: 60px 0 80px;
-}
-.consulting-intro {
-  text-align: center;
-  font-size: 1.1rem;
-  color: var(--text-muted);
-  max-width: 680px;
-  margin: -20px auto 40px;
-}
-.consulting-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 24px;
-}
-.consulting-card {
-  background: var(--bg-card);
-  border-radius: var(--radius);
-  padding: 28px;
-  border: 1px solid rgba(245,166,35,.06);
-  transition: transform .3s, border-color .3s;
-}
-.consulting-card:hover {
-  transform: translateY(-3px);
-  border-color: rgba(245,166,35,.2);
-}
-.consulting-card .icon {
-  font-size: 1.8rem;
-  margin-bottom: 12px;
-}
-.consulting-card h3 {
-  font-size: 1.1rem;
-  margin-bottom: 8px;
-  color: var(--accent);
-}
-.consulting-card p {
-  color: var(--text-muted);
-  font-size: .92rem;
-  line-height: 1.6;
-}
+/* (consulting styles removed — powerbee.html reuses .features/.feature-card) */
