@@ -170,7 +170,7 @@ nav .nav-links a.active { color: var(--accent); }
 
 /* ===== Product Page Hero ===== */
 .product-hero {
-  padding: 60px 0 40px;
+  padding: 60px 0 20px;
   text-align: center;
 }
 .product-hero img {
@@ -216,12 +216,12 @@ nav .nav-links a.active { color: var(--accent); }
   color: #111;
 }
 .store-badges a span { font-size: .75rem; font-weight: 400; display: block; color: #666; }
-.store-badge-img { height: 48px; width: auto; display: block; object-fit: contain; }
-.store-badges a:has(.store-badge-img) { background: none; padding: 0; border-radius: 0; box-shadow: none; }
+.store-badges a:has(.store-badge-img) { background: none !important; padding: 0 !important; border-radius: 0; box-shadow: none !important; }
+.store-badges .store-badge-img { height: 80px !important; width: auto !important; max-width: none !important; max-height: none !important; display: block; object-fit: contain; min-height: 80px; }
 
 /* ===== Features Grid ===== */
 .features {
-  padding: 60px 0;
+  padding: 20px 0;
 }
 .features h2 {
   text-align: center;
