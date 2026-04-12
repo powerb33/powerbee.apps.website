@@ -11,29 +11,15 @@
 </head>
 <body>
 
-<nav>
-  <div class="container">
-    <a href="index.html" class="logo-link">
-      <img src="images/bee_only.png" alt="Powerbee">
-      <span>Powerbee Apps</span>
-    </a>
-    <button class="nav-toggle" aria-label="Menu">☰</button>
-    <ul class="nav-links">
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="ultimate-game-scorer.html">Ultimate Game Scorer</a></li>
-      <li><a href="skull-king-scorer.html">Skull King Scorer</a></li>
-      <li><a href="roll-risk-dice.html">Roll Risk Dice</a></li>
-      <li><a href="privacy-policy.html">Privacy</a></li>
-      <li><a href="terms.html">Terms</a></li>
-    </ul>
-  </div>
-</nav>
+<div id="site-nav"></div>
+<script src="nav.js"></script>
+<script>renderNav('home');</script>
 
 <section class="hero fade-in">
   <div class="container">
     <img src="images/powerbee_logo.png" alt="Powerbee Apps" class="hero-logo">
     <h1>Powerbee Apps</h1>
-    <p>We build delightful, thoughtfully crafted apps that make everyday moments better — from game night with friends to keeping score with family.</p>
+    <p>We build delightful, thoughtfully crafted apps that make everyday moments better, from game night with friends to keeping score with family.</p>
   </div>
 </section>
 
@@ -45,7 +31,16 @@
         <img src="images/ugs_logo.png" alt="Ultimate Game Scorer">
         <div>
           <h3>Ultimate Game Scorer</h3>
-          <p>The ultimate companion for game night. Dedicated scoring for Skull King, Flip 7, and any game you play — with stats, history, and celebrations built in.</p>
+          <p>The ultimate companion for game night. Dedicated scoring for Skull King, Flip 7, and any game you play. With stats, history, and celebrations built in.</p>
+          <span class="btn">Learn More →</span>
+        </div>
+      </a>
+
+      <a href="ranxt.html" class="app-card">
+        <img src="images/ranxt_icon_name.png" alt="ranxt" style="border-radius:20px;">
+        <div>
+          <h3>ranxt</h3>
+          <p>Track the books you read, TV shows and movies you watch, and podcasts you listen to. Share recommendations with friends and never miss a great title again.</p>
           <span class="btn">Learn More →</span>
         </div>
       </a>
@@ -53,7 +48,7 @@
       <a href="skull-king-scorer.html" class="app-card">
         <img src="images/skull_king_icon.png" alt="Skull King Scorer" style="border-radius:20px;">
         <div>
-          <h3>Skull King Scorer <span style="font-size:0.7em; color:var(--text-muted); font-weight:500;">— Discontinued</span></h3>
+          <h3>Skull King Scorer <span style="font-size:0.7em; color:var(--text-muted); font-weight:500;">(Discontinued)</span></h3>
           <p>Skull King scoring has moved to Ultimate Game Scorer. The original app is no longer being updated.</p>
           <span class="btn">Learn More →</span>
         </div>
@@ -63,7 +58,7 @@
         <img src="images/roll_risk_icon.png" alt="Roll Risk Dice" style="border-radius:20px;">
         <div>
           <h3>Roll Risk Dice</h3>
-          <p>A fast, fun dice roller built for the board game Risk. Roll attacks and defenses with a tap — no more lost dice under the couch.</p>
+          <p>A fast, fun dice roller built for the board game Risk. Roll attacks and defenses with a tap. No more lost dice under the couch.</p>
           <span class="btn">Learn More →</span>
         </div>
       </a>

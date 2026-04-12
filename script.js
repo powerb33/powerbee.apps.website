@@ -4,7 +4,4 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.1 });
 document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 
-// Mobile nav toggle
-document.querySelector('.nav-toggle')?.addEventListener('click', () => {
-  document.querySelector('.nav-links')?.classList.toggle('open');
-});
+// Mobile nav toggle is handled by nav.js
